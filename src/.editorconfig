@@ -1,0 +1,41 @@
+root = true
+
+[*]
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = false
+
+# Indentation and spacing
+indent_size = 4
+indent_style = space
+tab_width = 4
+
+# C# files
+[*.cs]
+
+#### .NET Coding Conventions ####
+
+# this. and Me. preferences
+dotnet_style_qualification_for_method = false
+dotnet_style_qualification_for_field = false
+dotnet_style_qualification_for_property = false
+dotnet_style_qualification_for_method = false
+
+#### Diagnostic configuration ####
+
+# CA1000: Do not declare static members on generic types
+dotnet_diagnostic.CA1000.severity = warning
+
+# IDE0007: Use 'var' instead of explicit type (when the type is not obvious to the reader)
+dotnet_diagnostic.IDE0007.severity = warning
+# IDE0008: Use explicit type instead of 'var'
+dotnet_diagnostic.IDE0008.severity = none
+# Don't complain about async without await
+dotnet_diagnostic.CS1998.severity = none
+# Don't complain about assembly trimming
+dotnet_diagnostic.IL2104.severity = none
+
+dotnet_analyzer_diagnostic.category-roslynator.severity = suggestion
+roslynator_refactorings.enabled = true
+roslynator_compiler_diagnostic_fixes.enabled = true
