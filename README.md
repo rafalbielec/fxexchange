@@ -8,7 +8,7 @@ You can run it with the dotnet command. The amounts are expressed with the comma
 dotnet run --project src/Exchange
 dotnet run --project src/Exchange EUR/DKK 1
 dotnet run --project src/Exchange EUR/DKK 2,59
-dotnet run --project src/Exchange USD/EUR 35.53
+dotnet run --project src/Exchange USD/EUR 35,53
 ```
 
 ## JSON configuration file
