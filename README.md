@@ -17,16 +17,16 @@ The JSON configuration file is called **currencies.json** and it has the followi
 
 ```json
 {
- "baseCurrency": "DKK",
- "exchangeRates": [
-  { "name": "EUR", "amount": 743.94 },
-  { "name": "USD", "amount": 663.11 },
-  { "name": "GBP", "amount": 852.85 },
-  { "name": "SEK", "amount": 76.1 },
-  { "name": "NOK", "amount": 78.4 },
-  { "name": "CHF", "amount": 683.58 },
-  { "name": "JPY", "amount": 5.974 }
- ]
+  "baseCurrency": "DKK",
+  "exchangeRates": [
+    { "name": "EUR", "amount": 743.94 },
+    { "name": "USD", "amount": 663.11 },
+    { "name": "GBP", "amount": 852.85 },
+    { "name": "SEK", "amount": 76.1 },
+    { "name": "NOK", "amount": 78.4 },
+    { "name": "CHF", "amount": 683.58 },
+    { "name": "JPY", "amount": 5.974 }
+  ]
 }
 ```
 
