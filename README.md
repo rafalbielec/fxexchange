@@ -51,11 +51,13 @@ cargo install tokei
 tokei
 ```
 
-| Language              | Files | Lines | Code | Comments | Blanks |
-|-----------------------|-------|-------|------|----------|--------|
-| C#                    | 30    | 920   | 774  | 36       | 110    |
-| JSON                  | 3     | 26    | 26   | 0        | 0      |
-| Markdown              | 1     | 46    | 0    | 32       | 14     |
-| MSBuild               | 3     | 65    | 65   | 0        | 0      |
-| Visual Studio Solution| 1     | 34    | 33   | 0        | 1      |
-| **Total**             | 38    | 1030  | 896  | 15       | 119    |
+| Language               | Files | Lines | Code | Comments | Blanks |
+|------------------------|-------|-------|------|----------|--------|
+| C#                     |    30 |   920 |  774 |       36 |    110 |
+| JSON                   |     3 |    26 |   26 |        0 |      0 |
+| MSBuild                |     3 |    65 |   65 |        0 |      0 |
+| Visual Studio Solution |     1 |    34 |   33 |        0 |      1 |
+| **Markdown**           |     1 |    50 |    0 |       35 |    15  |
+| \- JSON                |     1 |    12 |   12 |        0 |      0 |
+| *(Total)*              |       |    62 |   12 |       35 |    15  |
+| **Total**              |    38 |  1095 |  898 |       71 |   126  |
