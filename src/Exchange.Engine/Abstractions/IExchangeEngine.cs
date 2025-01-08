@@ -3,8 +3,8 @@ namespace Exchange.Engine.Abstractions;
 public interface IExchangeEngine
 {
     /// <summary>
-    ///     Takes a pair of currencies in a specific format and the amount, and converts the amount into
-    ///     the target currency.
+    ///     Takes a pair of currencies in a specific format and the source amount,
+    ///     and converts the amount int the target currency.
     /// </summary>
     /// <param name="pairName">CUR/CUR</param>
     /// <param name="amount">122.99</param>
