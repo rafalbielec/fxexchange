@@ -5,6 +5,7 @@ The purpose of this exercise is to build a small CLI app that will convert monet
 You can run it with the dotnet command. The amounts are expressed with the comma used for the decimal point.
 
 ```sh
+git clone https://github.com/rafalbielec/fxexchange.git
 dotnet run --project src/Exchange
 dotnet run --project src/Exchange EUR/DKK 1
 dotnet run --project src/Exchange EUR/DKK 2,59
