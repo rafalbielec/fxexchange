@@ -1,0 +1,8 @@
+{
+	"baseCurrency": "DKK",
+	"exchangeRates": [
+		{ "name": "EUR", "amount": 100.00 },
+		{ "name": "USD", "amount": 200.00 },
+		{ "name": "GBP", "amount": 300.00 }
+	]
+}
