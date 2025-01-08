@@ -1,6 +1,6 @@
 # FX Exchange Programming Exercise
 
-The purpose of this exercise is to build a small CLI app which will convert monetary amounts between different currencies. The application has a separate JSON configuration file which holds the foreign exchange values against one base currency but the implementation can be adjusted to pull these values from an external source if needed.
+The purpose of this exercise is to build a small CLI app that will convert monetary amounts between different currencies. The application has a separate JSON configuration file which holds the foreign exchange values against one base currency but the implementation can be adjusted to pull these values from an external source if needed.
 
 You can run it with the dotnet command
 
@@ -8,6 +8,12 @@ You can run it with the dotnet command
 dotnet run --project src/Exchange
 dotnet run --project src/Exchange EUR/DKK 1
 ```
+
+## NuGet packages used
+
+- [IoC.Container](https://github.com/DevTeam/IoCContainer)
+- [System.Text.Json](https://www.nuget.org/packages/system.text.json)
+- [NSubstitute](https://nsubstitute.github.io)
 
 ## Unit and Integration tests
 
