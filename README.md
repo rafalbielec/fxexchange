@@ -13,20 +13,20 @@ dotnet run --project src/Exchange USD/EUR 35.53
 
 ## JSON configuration file
 
-The JSON configuration file is called **currencies.json** and it has the following format. The base currency is the Danish Krone and the rest of the currencies are exchange rates against it.
+The JSON configuration file is called **currencies.json** and it has the following format. The base currency is the Danish Krone and the rest of the currencies are exchange rates against it for 100 DKK.
 
 ```json
 {
-	"baseCurrency": "DKK",
-	"exchangeRates": [
-		{ "name": "EUR", "amount": 743.94 },
-		{ "name": "USD", "amount": 663.11 },
-		{ "name": "GBP", "amount": 852.85 },
-		{ "name": "SEK", "amount": 76.1 },
-		{ "name": "NOK", "amount": 78.4 },
-		{ "name": "CHF", "amount": 683.58 },
-		{ "name": "JPY", "amount": 5.974 }
-	]
+ "baseCurrency": "DKK",
+ "exchangeRates": [
+  { "name": "EUR", "amount": 743.94 },
+  { "name": "USD", "amount": 663.11 },
+  { "name": "GBP", "amount": 852.85 },
+  { "name": "SEK", "amount": 76.1 },
+  { "name": "NOK", "amount": 78.4 },
+  { "name": "CHF", "amount": 683.58 },
+  { "name": "JPY", "amount": 5.974 }
+ ]
 }
 ```
 
