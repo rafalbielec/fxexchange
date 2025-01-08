@@ -5,7 +5,7 @@ using Exchange.Engine.Models;
 
 namespace Exchange.Engine.Parsers;
 
-internal class CurrencyJsonParser : ICurrencyJsonParser
+internal sealed class CurrencyJsonParser : ICurrencyJsonParser
 {
     internal record ExchangeRateEntry
     {

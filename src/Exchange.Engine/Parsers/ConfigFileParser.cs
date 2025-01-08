@@ -4,7 +4,7 @@ using Exchange.Engine.Models;
 
 namespace Exchange.Engine.Parsers;
 
-internal class ConfigFileParser(ICurrencyJsonParser parser,
+internal sealed class ConfigFileParser(ICurrencyJsonParser parser,
         string configFileName = ConfigFileParser.DefaultConfigFileName) : IExchangeRatesProvider
 {
     private const string DefaultConfigFileName = "currencies.json";

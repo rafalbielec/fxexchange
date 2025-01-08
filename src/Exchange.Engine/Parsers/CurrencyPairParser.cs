@@ -4,7 +4,7 @@ using Exchange.Engine.Models;
 
 namespace Exchange.Engine.Parsers;
 
-internal class CurrencyPairParser(ICurrencyNameParser nameParser) : ICurrencyPairParser
+internal sealed class CurrencyPairParser(ICurrencyNameParser nameParser) : ICurrencyPairParser
 {
     const char Separator = '/';
     private readonly ICurrencyNameParser nameParser = nameParser;

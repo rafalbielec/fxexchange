@@ -4,7 +4,7 @@ using IoC;
 
 namespace Exchange.Engine;
 
-public class EngineConfiguration : IConfiguration
+public sealed class EngineConfiguration : IConfiguration
 {
     public IEnumerable<IToken> Apply(IMutableContainer container)
     {

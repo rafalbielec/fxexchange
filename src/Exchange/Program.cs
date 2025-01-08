@@ -47,8 +47,8 @@ internal static class Program
         {
             Console.Error.WriteLine($"Application error {ex.GetType().Name}: {ex.Message}");
 
-            const int ErrorExitCode = -1;
-            Environment.Exit(ErrorExitCode);
+            const int errorExitCode = -1;
+            Environment.Exit(errorExitCode);
         }
     }
 }

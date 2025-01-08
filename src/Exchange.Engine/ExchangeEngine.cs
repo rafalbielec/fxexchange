@@ -3,7 +3,7 @@ using Exchange.Engine.Errors;
 
 namespace Exchange.Engine;
 
-internal class ExchangeEngine(ICurrencyPairParser pairParser,
+internal sealed class ExchangeEngine(ICurrencyPairParser pairParser,
         IExchangeRatesProvider configParser,
         IExchangeCalculator calculator) : IExchangeEngine
 {
@@ -11,7 +11,7 @@ internal class ExchangeEngine(ICurrencyPairParser pairParser,
     private readonly IExchangeRatesProvider configParser = configParser;
     private readonly IExchangeCalculator calculator = calculator;
 
-    public decimal ConvertAmount(string pairName, decimal sourceAmount)
+    public decimal ConvertAmount(string pairName, decimal amount)
     {
         var rates = configParser.GetExchangeRates();
         var baseCurrency = rates.BaseCurrency;
@@ -27,6 +27,6 @@ internal class ExchangeEngine(ICurrencyPairParser pairParser,
             throw new UnsupportedCurrencyException(pair.TargetCurrency);
         }
 
-        return calculator.CalculateConversionRate(sourceAmount, pair, rates);
+        return calculator.CalculateConversionRate(amount, pair, rates);
     }
 }
