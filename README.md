@@ -40,6 +40,8 @@ The JSON configuration file is called **currencies.json** and it has the followi
 
 The solution also features a separate xunit test project which contains unit tests and an integration tests.
 
+![Test coverage](coverage.png?raw=true "JetBrains Test Coverage")
+
 ## Tokei code summary
 
 ```sh
