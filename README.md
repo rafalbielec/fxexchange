@@ -38,7 +38,7 @@ The JSON configuration file is called **currencies.json** and it has the followi
 
 ## Unit and Integration tests
 
-The solution also features a separate xunit test project which contains unit tests and an integration tests.
+The solution also features a separate xunit test project which contains unit tests and integration tests.
 
 ![Test coverage](coverage.png?raw=true "JetBrains Test Coverage")
 
