@@ -2,7 +2,7 @@
 
 The purpose of this exercise is to build a small CLI app that will convert monetary amounts between different currencies. The application has a separate JSON configuration file which holds the foreign exchange values against one base currency but the implementation can be adjusted to pull these values from an external source if needed.
 
-You can run it with the dotnet command. The amounts are expressed with the comma used for the decimal points.
+You can run it with the dotnet command. The amounts are expressed with the comma used for the decimal point.
 
 ```sh
 dotnet run --project src/Exchange
@@ -55,4 +55,3 @@ tokei
 | MSBuild               | 3     | 65    | 65   | 0        | 0      |
 | Visual Studio Solution| 1     | 34    | 33   | 0        | 1      |
 | **Total**             | 38    | 1030  | 896  | 15       | 119    |
-
